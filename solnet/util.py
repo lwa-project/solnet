@@ -9,7 +9,7 @@ __version__ = '0.1'
 __all__ = ['combine_srs', 'rectify_combined']
 
 
-def combine_srs(*args: Union[SolarRadioSpectrograph, Sequence[SolarRadioSpectrograph]) -> SolarRadioSpectrograph:
+def combine_srs(*args: Union[SolarRadioSpectrograph, Sequence[SolarRadioSpectrograph]]) -> SolarRadioSpectrograph:
     """
     Given a collection of SolarRadioSpectrograph instances, combine them into a
     single SolarRadioSpectrograph instance.  The files are combined by stepping
