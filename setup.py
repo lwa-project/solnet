@@ -19,6 +19,6 @@ setup(name                 = "solnet",
       scripts              = glob.glob('scripts/*.py'),
       include_package_data = True,
       python_requires      = '>=3.8',
-      install_requires     = ['numpy', 'astropy', 'ephem', 'pytz'],
+      install_requires     = ['numpy', 'scipy', 'astropy', 'pytz'],
       zip_safe             = False
 )
